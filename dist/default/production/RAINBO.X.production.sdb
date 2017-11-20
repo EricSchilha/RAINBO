@@ -1,0 +1,94 @@
+[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 12F1840 ]
+[d frameptr 6 ]
+"62 C:\Program Files\Microchip\xc8\v1.44\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files\Microchip\xc8\v1.44\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files\Microchip\xc8\v1.44\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"98 H:\MPLAB\RAINBO.X\RAINBO-Starter.c
+[v _diffCols diffCols `(v  1 e 1 0 ]
+"176
+[v _main main `(i  1 e 2 0 ]
+"13 H:\MPLAB\RAINBO.X\RAINBO.c
+[v _init init `(v  1 e 1 0 ]
+"349 C:\Program Files\Microchip\xc8\v1.44\include\pic12f1840.h
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+"427
+[v _PORTA PORTA `VEuc  1 e 1 @12 ]
+"1000
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1152
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @149 ]
+"1286
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"1403
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"1564
+[v _ADRESH ADRESH `VEuc  1 e 1 @156 ]
+"1584
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @157 ]
+"1664
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @158 ]
+"1730
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+"2393
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2983
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"4873
+[v _ADON ADON `VEb  1 e 0 @1256 ]
+"5075
+[v _GO GO `VEb  1 e 0 @1257 ]
+"5243
+[v _PLLR PLLR `VEb  1 e 0 @1238 ]
+"17 H:\MPLAB\RAINBO.X\RAINBO-Starter.c
+[v _red red `uc  1 e 1 0 ]
+"18
+[v _green green `uc  1 e 1 0 ]
+"19
+[v _blue blue `uc  1 e 1 0 ]
+"21
+[v _letsSaveTime letsSaveTime `uc  1 e 1 0 ]
+"26
+[v _colors colors `[3][2]uc  1 e 6 0 ]
+"37
+[v _redDir redDir `uc  1 e 1 0 ]
+"38
+[v _greenDir greenDir `uc  1 e 1 0 ]
+"39
+[v _blueDir blueDir `uc  1 e 1 0 ]
+"41
+[v _offset offset `uc  1 e 1 0 ]
+"43
+[v _curCol curCol `uc  1 e 1 0 ]
+"44
+[v _maxLEDs maxLEDs `DCuc  1 e 1 0 ]
+"46
+[v _temp temp `uc  1 e 1 0 ]
+"47
+[v _i i `uc  1 e 1 0 ]
+"176
+[v _main main `(i  1 e 2 0 ]
+{
+"188
+} 0
+"13 H:\MPLAB\RAINBO.X\RAINBO.c
+[v _init init `(v  1 e 1 0 ]
+{
+"37
+} 0
+"98 H:\MPLAB\RAINBO.X\RAINBO-Starter.c
+[v _diffCols diffCols `(v  1 e 1 0 ]
+{
+[v diffCols@leds leds `uc  1 a 1 wreg ]
+[v diffCols@leds leds `uc  1 a 1 wreg ]
+[v diffCols@offset offset `uc  1 p 1 0 ]
+[v diffCols@leds leds `uc  1 a 1 2 ]
+"136
+} 0
